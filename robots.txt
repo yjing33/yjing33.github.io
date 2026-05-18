@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://yjing33.github.io/sitemap.xml
+Sitemap: https://jingyu.io/sitemap.xml
