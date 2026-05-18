@@ -1,0 +1,45 @@
+<svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Adversarial stabilization safety plot">
+  <defs>
+    <linearGradient id="g01" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#354b4f"/>
+      <stop offset="100%" stop-color="#172529"/>
+    </linearGradient>
+    <marker id="arrow01" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="strokeWidth">
+      <path d="M0 0 L10 5 L0 10 Z" fill="rgba(255,255,255,0.72)"/>
+    </marker>
+  </defs>
+  <rect width="800" height="500" fill="url(#g01)"/>
+
+  <!-- Safety plot -->
+  <rect x="112" y="82" width="576" height="234" rx="10" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.36)" stroke-width="2"/>
+  <rect x="142" y="142" width="516" height="112" fill="rgba(232,217,176,0.12)" stroke="rgba(232,217,176,0.52)" stroke-width="2"/>
+
+  <g stroke="rgba(255,255,255,0.16)" stroke-width="1.2">
+    <line x1="142" y1="198" x2="658" y2="198"/>
+    <line x1="230" y1="104" x2="230" y2="294"/>
+    <line x1="342" y1="104" x2="342" y2="294"/>
+    <line x1="454" y1="104" x2="454" y2="294"/>
+    <line x1="566" y1="104" x2="566" y2="294"/>
+  </g>
+
+  <g stroke="rgba(255,255,255,0.62)" stroke-width="2.3" fill="none" stroke-linecap="round">
+    <line x1="142" y1="294" x2="658" y2="294" marker-end="url(#arrow01)"/>
+    <line x1="142" y1="294" x2="142" y2="104" marker-end="url(#arrow01)"/>
+  </g>
+
+  <!-- Adversarial disturbance attempts -->
+  <g stroke="rgba(232,217,176,0.72)" stroke-width="2.8" fill="none" stroke-linecap="round">
+    <path d="M235 120 L235 148" marker-end="url(#arrow01)"/>
+    <path d="M432 276 L432 250" marker-end="url(#arrow01)"/>
+    <path d="M585 118 L585 147" marker-end="url(#arrow01)"/>
+  </g>
+
+  <!-- State remains inside the safe set -->
+  <path d="M152 210 C188 146 226 270 268 204 S338 150 394 204 S482 238 540 196 S612 174 648 198"
+        stroke="rgba(255,255,255,0.88)" stroke-width="4.4" fill="none" stroke-linecap="round"/>
+  <path d="M152 142 H658 M152 254 H658" stroke="rgba(232,217,176,0.66)" stroke-width="2.2" stroke-dasharray="10 9"/>
+
+  <line x1="0" y1="340" x2="800" y2="340" stroke="rgba(255,255,255,0.24)" stroke-width="1.2"/>
+  <text x="40" y="450" font-family="Georgia, 'Times New Roman', serif" font-size="30" fill="rgba(255,255,255,0.95)">Adversarial Stabilization</text>
+  <text x="40" y="478" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="rgba(255,255,255,0.7)" letter-spacing="1.5">ONLINE CONTROL | ADAPTATION | ROBUSTNESS</text>
+</svg>

@@ -2,12 +2,16 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: Research projects organized by theme.
 nav: true
-nav_order: 3
-display_categories: [work, fun]
+nav_order: 2
+display_categories: ["Foundations", "Applications"]
 horizontal: false
 ---
+
+My research develops system-level frameworks for **online** and **adaptive** learning-enabled control in large-scale cyber-physical systems. A recurring theme is that learning and control should be designed around the physical realities of dynamic environments: safety constraints, bounded or adversarial disturbances, unreliable predictions, communication delays, and limited sensing.
+
+The projects below are organized around two connected directions: foundations for safe, adaptive, and scalable online control, and applications in sustainable energy and industrial systems.
 
 <!-- pages/projects.md -->
 <div class="projects">

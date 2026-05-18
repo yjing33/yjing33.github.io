@@ -1,0 +1,46 @@
+<svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Scalable communication network">
+  <defs>
+    <linearGradient id="g02" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3c4856"/>
+      <stop offset="100%" stop-color="#1b2330"/>
+    </linearGradient>
+    <marker id="arrow02" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="strokeWidth">
+      <path d="M0 0 L10 5 L0 10 Z" fill="rgba(255,255,255,0.68)"/>
+    </marker>
+  </defs>
+  <rect width="800" height="500" fill="url(#g02)"/>
+
+  <!-- Generic communication network -->
+  <g stroke="rgba(255,255,255,0.34)" stroke-width="3" fill="none" stroke-linecap="round">
+    <line x1="174" y1="178" x2="304" y2="126"/>
+    <line x1="304" y1="126" x2="430" y2="178"/>
+    <line x1="430" y1="178" x2="560" y2="126"/>
+    <line x1="560" y1="126" x2="660" y2="214"/>
+    <line x1="174" y1="178" x2="276" y2="270"/>
+    <line x1="276" y1="270" x2="430" y2="178"/>
+    <line x1="430" y1="178" x2="512" y2="286"/>
+    <line x1="512" y1="286" x2="660" y2="214"/>
+  </g>
+
+  <g fill="rgba(255,255,255,0.14)" stroke="rgba(255,255,255,0.76)" stroke-width="3">
+    <circle cx="174" cy="178" r="27"/>
+    <circle cx="304" cy="126" r="27"/>
+    <circle cx="430" cy="178" r="27"/>
+    <circle cx="560" cy="126" r="27"/>
+    <circle cx="660" cy="214" r="27"/>
+    <circle cx="276" cy="270" r="27"/>
+    <circle cx="512" cy="286" r="27"/>
+  </g>
+
+  <!-- Communication waves and routed message -->
+  <g stroke="rgba(232,217,176,0.72)" stroke-width="2.6" fill="none" stroke-linecap="round">
+    <path d="M304 78 C384 42 500 42 560 78"/>
+    <path d="M292 58 C392 12 520 14 574 58" opacity="0.65"/>
+    <path d="M186 178 C280 92 472 92 648 214" stroke-dasharray="10 9" marker-end="url(#arrow02)"/>
+  </g>
+  <circle cx="430" cy="178" r="10" fill="rgba(232,217,176,0.9)"/>
+
+  <line x1="0" y1="340" x2="800" y2="340" stroke="rgba(255,255,255,0.24)" stroke-width="1.2"/>
+  <text x="40" y="450" font-family="Georgia, 'Times New Roman', serif" font-size="30" fill="rgba(255,255,255,0.95)">Scalable Control</text>
+  <text x="40" y="478" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="rgba(255,255,255,0.7)" letter-spacing="1.5">SYSTEM LEVEL SYNTHESIS | LOCALITY | DELAY</text>
+</svg>

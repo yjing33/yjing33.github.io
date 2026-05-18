@@ -3,20 +3,19 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
-first_name: You
-middle_name: R.
-last_name: Name
+first_name: Jing
+middle_name:
+last_name: Yu
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  The best way to reach me is by email.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  Jing Yu — Assistant Professor, Department of Electrical and Computer Engineering, University of Washington.
 footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with the <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
+keywords: jing yu, control theory, machine learning, sustainable energy, online learning, distributed control, system level synthesis
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: alice.png # the image used as the favicon, located in /assets/img/
 
 url: https://yjing33.github.io # the base hostname & protocol for your site
 baseurl: "" # the subpath of your site, e.g. /blog/. Leave blank for root
@@ -128,17 +127,7 @@ disqus_shortname: al-folio # put your disqus shortname
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
 # Optional: Set default categories and tags for posts from each source.
-external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
-    categories: [external-posts]
-    tags: [medium]
-  - name: Google Blog
-    posts:
-      - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
-        published_date: 2024-05-14
-    categories: [external-posts]
-    tags: [google]
+external_sources: []
 
 # -----------------------------------------------------------------------------
 # Newsletter
@@ -185,7 +174,11 @@ kramdown:
 # Includes & excludes
 include: ["_pages", "_scripts"]
 exclude:
+  - AGENTS.md
+  - alice.png
+  - assets/img/projects/05-stochastic-approximation.svg
   - bin/
+  - CLAUDE.md
   - CONTRIBUTING.md
   - CUSTOMIZE.md
   - Dockerfile
@@ -196,10 +189,10 @@ exclude:
   - Gemfile.lock
   - INSTALL.md
   - LICENSE
+  - WebsitePrivateInput/
   - lighthouse_results/
   - package.json
   - package-lock.json
-  - _pages/about_einstein.md
   - purgecss.config.js
   - README.md
   - readme_preview/
@@ -279,8 +272,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Yu]
+  first_name: [Jing, J.]
 
   style: apa
   locale: en

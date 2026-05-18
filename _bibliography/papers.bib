@@ -1,115 +1,219 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
+@string{acc        = {American Control Conference (ACC)}}
+@string{cdc        = {IEEE Conference on Decision and Control (CDC)}}
+@string{eenergy    = {ACM International Conference on Future and Sustainable Energy Systems (ACM e-Energy)}}
+@string{icml       = {International Conference on Machine Learning (ICML)}}
+@string{l4dc       = {Annual Learning for Dynamics and Control Conference (L4DC)}}
+@string{lcss       = {IEEE Control Systems Letters (L-CSS)}}
+@string{sigmetrics = {ACM SIGMETRICS}}
+@string{tsg        = {IEEE Transactions on Smart Grid}}
 
-@book{einstein1920relativity,
-  title     = {Relativity: the Special and General Theory},
-  author    = {Einstein, Albert},
-  year      = {1920},
-  publisher = {Methuen & Co Ltd},
-  html      = {relativity.html}
-}
+% =====================================================================
+% 2025 / In submission
+% =====================================================================
 
-@book{einstein1956investigations,
+@unpublished{wu2025sls,
   bibtex_show = {true},
-  title       = {Investigations on the Theory of the Brownian Movement},
-  author      = {Einstein, Albert},
-  year        = {1956},
-  publisher   = {Courier Corporation},
-  preview     = {brownian-motion.gif}
+  title       = {System-level performance and communication tradeoff in networked control with predictions},
+  author      = {Wu, Y. and Yu, J. and Li, T.},
+  year        = {2025},
+  note        = {In submission},
+  arxiv       = {2508.13475},
+  code        = {https://github.com/Wu-yi-fei/predictive-sls-master}
 }
 
-@article{einstein1950meaning,
-  abbr        = {AJP},
+@article{zeng2025sysid,
   bibtex_show = {true},
-  title       = {The meaning of relativity},
-  author      = {Einstein, Albert and Taub, AH},
-  journal     = {American Journal of Physics},
-  volume      = {18},
-  number      = {6},
-  pages       = {403--404},
-  year        = {1950},
-  publisher   = {American Association of Physics Teachers}
+  title       = {System Identification Under Bounded Noise: Optimal Rates Beyond Least Squares},
+  author      = {Zeng, X. and Yu, J. and Ozay, N.},
+  journal     = lcss,
+  year        = {2025},
+  arxiv       = {2503.16817},
+  code        = {https://github.com/jy-cds/Bounded-Noise-SysID-Minimax-Lowerbound}
 }
 
-@article{PhysRev.47.777,
-  abbr              = {PhysRev},
-  title             = {Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author            = {Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract          = {In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal           = {Phys. Rev.},
-  location          = {New Jersey},
-  volume            = {47},
-  issue             = {10},
-  pages             = {777--780},
-  numpages          = {0},
-  year              = {1935},
-  month             = {May},
-  publisher         = aps,
-  doi               = {10.1103/PhysRev.47.777},
-  url               = {https://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html              = {https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf               = {example_pdf.pdf},
-  altmetric         = {248277},
-  dimensions        = {true},
-  google_scholar_id = {qyhmnyLat1gC},
-  video             = {https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info   = {. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation        = {* Example use of superscripts<br>† Albert Einstein},
-  selected          = {true},
-  inspirehep_id     = {3255}
-}
-
-@article{einstein1905molekularkinetischen,
-  title     = {{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author    = {Einstein, A.},
-  journal   = {Annalen der physik},
-  volume    = {322},
-  number    = {8},
-  pages     = {549--560},
-  year      = {1905},
-  publisher = {Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr    = {Ann. Phys.},
-  title   = {Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author  = {Einstein, A.},
-  journal = {Ann. Phys.},
-  volume  = {17},
-  pages   = {549--560},
-  year    = {1905}
-}
-
-@article{einstein1905electrodynamics,
-  title  = {On the electrodynamics of moving bodies},
-  author = {Einstein, A.},
-  year   = {1905}
-}
-
-@article{einstein1905photoelectriceffect,
+@inproceedings{wu2025pedsls,
   bibtex_show = {true},
-  abbr        = {Ann. Phys.},
-  title       = {{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}},
-  author      = {Albert Einstein},
-  abstract    = {This is the abstract text.},
-  journal     = {Ann. Phys.},
-  volume      = {322},
-  number      = {6},
-  pages       = {132--148},
-  year        = {1905},
-  doi         = {10.1002/andp.19053220607},
-  award       = {Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name  = {Nobel Prize}
+  title       = {{PEDSLS}: A Unified Framework for Distributed Predictive Control},
+  author      = {Wu, Y. and Yu, J. and Li, T.},
+  booktitle   = cdc,
+  year        = {2025},
+  html        = {https://ieeexplore.ieee.org/document/11312851},
+  code        = {https://github.com/Wu-yi-fei/predictive-sls-master}
 }
 
-@book{przibram1967letters,
+@inproceedings{yang2025safe,
   bibtex_show = {true},
-  title       = {Letters on wave mechanics},
-  author      = {Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year        = {1967},
-  publisher   = {Vision},
-  preview     = {wave-mechanics.gif},
-  abbr        = {Vision}
+  title       = {Safe Control of Multi-Agent Systems with Minimal Communication},
+  author      = {Yang, M. and Yu, J. and Ozay, N.},
+  booktitle   = cdc,
+  year        = {2025},
+  arxiv       = {2512.13021},
+  code        = {https://github.com/Nephren17/multiagent_lowrankctrl}
+}
+
+@inproceedings{yu2025hvac,
+  bibtex_show = {true},
+  title       = {Online Comfort-Constrained {HVAC} Control via Feature Transfer},
+  author      = {Yu, J. and Zhang, T. and Ardakanian, O. and Wierman, A.},
+  booktitle   = eenergy,
+  year        = {2025},
+  pdf         = {https://drive.google.com/file/d/18wqqf8kS9mo4bDSLo3r1InEtVw3n-07W/view?usp=sharing},
+  code        = {https://github.com/sustainable-computing/ocft},
+  selected    = {true}
+}
+
+% =====================================================================
+% 2024
+% =====================================================================
+
+@inproceedings{li2024uncertainty,
+  bibtex_show = {true},
+  title       = {Learning the Uncertainty Sets for Control Dynamics via Set Membership: A Non-Asymptotic Analysis},
+  author      = {Li, Y. and Yu, J. and Conger, L. and Wierman, A.},
+  booktitle   = icml,
+  year        = {2024},
+  arxiv       = {2309.14648},
+  code        = {https://github.com/jy-cds/non-asymptotic-set-membership},
+  annotation  = {* Equal contribution between Y. Li and J. Yu},
+  selected    = {true}
+}
+
+@article{yeh2024voltctrl,
+  bibtex_show = {true},
+  title       = {Online Learning for Robust Voltage Control under Uncertain Grid Topology},
+  author      = {Yeh, C. and Yu, J. and Shi, Y. and Wierman, A.},
+  journal     = tsg,
+  year        = {2024},
+  arxiv       = {2304.02878},
+  code        = {https://github.com/chrisyeh96/voltctrl}
+}
+
+% =====================================================================
+% 2023
+% =====================================================================
+
+@inproceedings{yu2023ltv,
+  bibtex_show = {true},
+  title       = {Online Stabilization of Unknown Linear Time-Varying Systems},
+  author      = {Yu, J. and Gupta, V. and Wierman, A.},
+  booktitle   = cdc,
+  year        = {2023},
+  arxiv       = {2304.02878},
+  code        = {https://github.com/jy-cds/unknown-ltv-stabilization}
+}
+
+@inproceedings{yu2023adversarial,
+  bibtex_show = {true},
+  title       = {Online Adversarial Stabilization of Unknown Networked Systems},
+  author      = {Yu, J. and Ho, D. and Wierman, A.},
+  booktitle   = sigmetrics,
+  year        = {2023},
+  arxiv       = {2203.02630},
+  code        = {https://colab.research.google.com/drive/1l29fy4ClkA1LBzEj0DXbqE5mNg1cz4WQ?usp=sharing},
+  selected    = {true}
+}
+
+% =====================================================================
+% 2022
+% =====================================================================
+
+@inproceedings{yeh2022voltctrl,
+  bibtex_show = {true},
+  title       = {Robust Online Voltage Control with an Unknown Grid Topology},
+  author      = {Yeh, C. and Yu, J. and Shi, Y. and Wierman, A.},
+  booktitle   = eenergy,
+  year        = {2022},
+  arxiv       = {2206.14369},
+  code        = {https://github.com/chrisyeh96/voltctrl},
+  award       = {Best Paper Award Finalist},
+  annotation  = {Best Paper Award Finalist},
+  selected    = {true}
+}
+
+@inproceedings{kjellqvist2022sls,
+  bibtex_show = {true},
+  title       = {On Infinite-horizon System Level Synthesis},
+  author      = {Kjellqvist, O. and Yu, J.},
+  booktitle   = cdc,
+  year        = {2022},
+  arxiv       = {2210.15815},
+  code        = {https://drive.google.com/file/d/1JDq285NS2_v2U4_RQAaRqqMlA0dO5XmK/view?usp=sharing},
+  annotation  = {* Equal contribution between O. Kjellqvist and J. Yu}
+}
+
+% =====================================================================
+% 2021
+% =====================================================================
+
+@inproceedings{yu2021robustrl,
+  bibtex_show = {true},
+  title       = {Robust Reinforcement Learning: A Constrained Game-theoretic Approach},
+  author      = {Yu, J. and Gehring, C. and Sch{\"a}fer, F. and Anandkumar, A.},
+  booktitle   = l4dc,
+  year        = {2021},
+  pdf         = {http://proceedings.mlr.press/v144/yu21a/yu21a.pdf}
+}
+
+@inproceedings{yu2021localized,
+  bibtex_show = {true},
+  title       = {Localized and Distributed {H2} State Feedback Control},
+  author      = {Yu, J. and Wang, Y. and Anderson, J.},
+  booktitle   = acc,
+  year        = {2021},
+  arxiv       = {2010.02440},
+  code        = {https://github.com/jy-cds/infinite_horizon_sls},
+  selected    = {true}
+}
+
+% =====================================================================
+% 2020
+% =====================================================================
+
+@inproceedings{yu2020saturation,
+  bibtex_show = {true},
+  title       = {Achieving Performance and Safety in Large Scale Systems with Saturation Using a Nonlinear System Level Synthesis Approach},
+  author      = {Yu, J. and Ho, D.},
+  booktitle   = acc,
+  year        = {2020},
+  arxiv       = {2006.12766},
+  annotation  = {* Equal contribution between J. Yu and D. Ho}
+}
+
+% =====================================================================
+% Earlier work and patents
+% =====================================================================
+
+@article{lynn2018voxel,
+  bibtex_show = {true},
+  title       = {Direct Digital Subtractive Manufacturing of a Functional Assembly using Voxel-based Models},
+  author      = {Lynn, R. and Dinar, M. and Huang, N. and Collins, J. and Yu, J. and Greer, C. and Tucker, T. and Kurfess, T.},
+  journal     = {ASME Journal of Manufacturing Science and Engineering},
+  year        = {2018}
+}
+
+@article{yu2017modelfree,
+  bibtex_show = {true},
+  title       = {Model-free Subtractive Manufacturing from Computed Tomography Data},
+  author      = {Yu, J. and Lynn, R. and Tucker, T. and Saldana, C. and Kurfess, T.},
+  journal     = {ASME Manufacturing Letters},
+  year        = {2017}
+}
+
+@misc{yu2021patentdownbeam,
+  bibtex_show = {true},
+  title       = {Systems and methods for downbeam camera data for additive machines},
+  author      = {Yu, J. and others},
+  year        = {2021},
+  note        = {U.S. Patent Application 16/818,650, Published}
+}
+
+@misc{yu2021patentcleaning,
+  bibtex_show = {true},
+  title       = {Composition for cleaning and assessing cleanliness in real-time},
+  author      = {Yu, J. and others},
+  year        = {2021},
+  note        = {U.S. Patent Application 17/289,488, Published}
 }

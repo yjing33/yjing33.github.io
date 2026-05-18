@@ -1,4 +1,6 @@
 _site
+WebsitePrivateInput/
+/alice.png
 .bundle
 .DS_store
 .idea
