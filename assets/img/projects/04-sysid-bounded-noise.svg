@@ -1,0 +1,26 @@
+<svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Shrinking uncertainty sets for system identification">
+  <defs>
+    <linearGradient id="g04" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#40544c"/>
+      <stop offset="100%" stop-color="#1b2a25"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#g04)"/>
+
+  <!-- Shrinking feasible sets -->
+  <g transform="translate(400,194)" stroke-linejoin="round">
+    <path d="M-180 -72 L-64 -122 L76 -94 L172 -8 L134 102 L-2 122 L-146 74 Z"
+          fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.38)" stroke-width="2.8"/>
+    <path d="M-126 -46 L-42 -84 L60 -66 L124 -6 L94 72 L-6 88 L-96 52 Z"
+          fill="rgba(255,255,255,0.11)" stroke="rgba(255,255,255,0.5)" stroke-width="2.8"/>
+    <path d="M-72 -26 L-22 -50 L36 -38 L72 -2 L54 42 L-4 52 L-54 30 Z"
+          fill="rgba(255,255,255,0.16)" stroke="rgba(255,255,255,0.68)" stroke-width="2.8"/>
+    <path d="M-28 -10 L-8 -22 L18 -16 L32 0 L24 18 L-2 24 L-24 12 Z"
+          fill="rgba(232,217,176,0.28)" stroke="rgba(232,217,176,0.82)" stroke-width="2.8"/>
+    <circle cx="0" cy="0" r="6" fill="rgba(232,217,176,0.96)"/>
+  </g>
+
+  <line x1="0" y1="340" x2="800" y2="340" stroke="rgba(255,255,255,0.24)" stroke-width="1.2"/>
+  <text x="40" y="450" font-family="Georgia, 'Times New Roman', serif" font-size="30" fill="rgba(255,255,255,0.95)">System Identification</text>
+  <text x="40" y="478" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="rgba(255,255,255,0.7)" letter-spacing="1.5">BOUNDED NOISE | ONLINE LEARNING | OPTIMAL RATES</text>
+</svg>
