@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 # subtitle: Assistant Professor, Electrical and Computer Engineering</a>, University of Washington.
 

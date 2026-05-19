@@ -12,7 +12,6 @@ nav_order: 4
 ## PhD students
 
 - Hongyu Yi
-- Jiayi Zhao
 
 ## Master's students
 

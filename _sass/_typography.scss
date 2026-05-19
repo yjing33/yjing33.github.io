@@ -4,6 +4,19 @@
 
 @use "variables" as v;
 
+body {
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 400;
+}
+
 p,
 h1,
 h2,
@@ -17,6 +30,37 @@ li,
 span,
 strong {
   color: var(--global-text-color);
+}
+
+.post-description,
+.post-description * {
+  color: var(--global-text-color-light);
+}
+
+.post article > h2 {
+  margin-top: 3.5rem;
+  margin-bottom: 1rem;
+}
+
+.post article > h2:first-child {
+  margin-top: 0;
+}
+
+.post article > h3 {
+  margin-top: 2.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.post article p,
+.post article li,
+.post article .card-text,
+.post article .author,
+.post article .periodical,
+.post article .abstract,
+.post article .award {
+  hyphens: auto;
+  text-align: justify;
+  text-align-last: left;
 }
 
 hr {

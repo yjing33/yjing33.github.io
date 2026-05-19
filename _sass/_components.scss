@@ -60,7 +60,7 @@ ul.task-list input[type="checkbox"] {
 
   .more-info {
     margin-bottom: 5px;
-    margin-top: 5px;
+    margin-top: 1.35rem;
     font-family: monospace;
 
     p {
@@ -79,11 +79,11 @@ ul.task-list input[type="checkbox"] {
 }
 
 .about-news {
-  margin-top: 3rem;
+  margin-top: 4.25rem;
 }
 
 .about-selected-publications {
-  margin-top: 3rem;
+  margin-top: 4.25rem;
 }
 
 @media (min-width: 576px) {
@@ -162,10 +162,9 @@ ul.task-list input[type="checkbox"] {
   h2.category {
     color: var(--global-text-color);
     border-top: 2px solid var(--global-text-color);
-    border-bottom: 1px solid var(--global-text-color);
     padding-top: 0.85rem;
-    margin-top: 2.75rem;
-    margin-bottom: 1.25rem;
+    margin-top: 4.25rem;
+    margin-bottom: 1.55rem;
     text-align: left;
     text-transform: uppercase;
     font-size: 2rem;

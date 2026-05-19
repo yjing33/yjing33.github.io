@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /publications/
-title: publications
+title: Publications
 description: Publications in reverse chronological order. <sup>*</sup> denotes equal contribution.
 nav: true
 nav_order: 1

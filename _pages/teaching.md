@@ -1,10 +1,10 @@
 ---
 layout: page
 permalink: /teaching/
-title: teaching
+title: Teaching
 description: Courses, mentoring, and outreach.
 nav: true
-nav_order: 3
+nav_order: 4
 ---
 
 ## Courses at the University of Washington
