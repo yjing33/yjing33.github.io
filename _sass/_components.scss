@@ -62,10 +62,12 @@ ul.task-list input[type="checkbox"] {
     margin-bottom: 5px;
     margin-top: 1.35rem;
     font-family: monospace;
+    font-size: 0.86rem;
+    line-height: 1.35;
 
     p {
-      display: inline-block;
-      margin: 0;
+      display: block;
+      margin: 0 0 0.15rem;
     }
   }
 }

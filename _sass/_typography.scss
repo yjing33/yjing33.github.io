@@ -32,6 +32,10 @@ strong {
   color: var(--global-text-color);
 }
 
+.post article strong {
+  font-weight: 800;
+}
+
 .post-description,
 .post-description * {
   color: var(--global-text-color-light);
