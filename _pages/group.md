@@ -77,6 +77,11 @@ _styles: |
     line-height: 1.45;
   }
 
+  .student-link {
+    font-size: 0.93rem;
+    line-height: 1.45;
+  }
+
   .resource-list {
     margin-bottom: 1.65rem;
     padding-left: 1.2rem;
@@ -145,10 +150,13 @@ _styles: |
 
   <div class="student-roster">
     <div class="student-entry">
-      <div class="student-photo" aria-hidden="true"></div>
+      <div class="student-photo">
+        <img src="{{ '/assets/img/people/hongyu-yi.jpg' | relative_url }}" alt="Hongyu Yi">
+      </div>
       <div>
         <div class="student-name">Hongyu Yi</div>
         <div class="student-role">Ph.D. student</div>
+        <div class="student-link"><a href="https://sites.google.com/view/hongyu-yi">Website</a></div>
       </div>
     </div>
     <div class="student-entry">
