@@ -149,6 +149,12 @@ ul.task-list input[type="checkbox"] {
     img {
       width: 100%;
     }
+
+    .card-text {
+      hyphens: none;
+      text-align: left;
+      text-align-last: auto;
+    }
   }
 
   .col {
