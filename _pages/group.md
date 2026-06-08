@@ -49,13 +49,24 @@ _styles: |
   }
 
   .student-photo {
-    background: rgba(128, 128, 128, 0.08);
+    background-color: rgba(128, 128, 128, 0.08);
+    background-image: url("/assets/img/people/uw-husky-cartoon.png");
+    background-position: center;
+    background-size: cover;
     border: 1px solid rgba(128, 128, 128, 0.18);
     border-radius: 50%;
+    display: block;
     flex: 0 0 9rem;
     height: 9rem;
     overflow: hidden;
+    transition: border-color 0.15s ease-in-out;
     width: 9rem;
+  }
+
+  a.student-photo:hover,
+  a.student-photo:focus {
+    border-color: var(--global-theme-color);
+    text-decoration: none;
   }
 
   .student-photo img {
@@ -73,11 +84,6 @@ _styles: |
 
   .student-role {
     color: var(--global-text-color-light);
-    font-size: 0.93rem;
-    line-height: 1.45;
-  }
-
-  .student-link {
     font-size: 0.93rem;
     line-height: 1.45;
   }
@@ -149,23 +155,27 @@ _styles: |
   <h2>Students</h2>
 
   <div class="student-roster">
+    {% for student in site.data.group.students %}
     <div class="student-entry">
-      <div class="student-photo">
-        <img src="{{ '/assets/img/people/hongyu-yi.jpg' | relative_url }}" alt="Hongyu Yi">
-      </div>
+      {% if student.website %}
+        <a class="student-photo" href="{{ student.website }}" aria-label="{{ student.name }} website">
+          {% if student.photo %}
+            <img src="{{ student.photo | relative_url }}" alt="{{ student.name }}">
+          {% endif %}
+        </a>
+      {% else %}
+        <div class="student-photo" aria-hidden="true">
+          {% if student.photo %}
+            <img src="{{ student.photo | relative_url }}" alt="">
+          {% endif %}
+        </div>
+      {% endif %}
       <div>
-        <div class="student-name">Hongyu Yi</div>
-        <div class="student-role">Ph.D. student</div>
-        <div class="student-link"><a href="https://sites.google.com/view/hongyu-yi">Website</a></div>
+        <div class="student-name">{{ student.name }}</div>
+        <div class="student-role">{{ student.role }}</div>
       </div>
     </div>
-    <div class="student-entry">
-      <div class="student-photo" aria-hidden="true"></div>
-      <div>
-        <div class="student-name">Megan Bui</div>
-        <div class="student-role">Master's student</div>
-      </div>
-    </div>
+    {% endfor %}
   </div>
 
   <h2>Resources and Advice</h2>

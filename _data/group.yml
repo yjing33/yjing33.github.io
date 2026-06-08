@@ -1,0 +1,11 @@
+students:
+  - name: Hongyu Yi
+    role: Ph.D. student
+    photo: /assets/img/people/hongyu-yi.jpg
+    website: https://sites.google.com/view/hongyu-yi
+
+  - name: Megan Bui
+    role: Master's student
+
+  - name: Jiakai Wen
+    role: Master's student
