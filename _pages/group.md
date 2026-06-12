@@ -210,4 +210,10 @@ _styles: |
     <li><a href="https://gwern.net/doc/science/1986-hamming">You and Your Research</a>, by Richard Hamming.</li>
     <li><a href="https://norvig.com/21-days.html">Teach Yourself Programming in Ten Years</a>, by Peter Norvig.</li>
   </ul>
+
+  <h3>Tales of AI counting to 100</h3>
+  <ul class="resource-list">
+    <li><a href="https://www.youtube.com/shorts/HfAFHRVtYFE">AI counting to 100, tale #1</a>.</li>
+    <li><a href="https://www.youtube.com/shorts/s_zV0K1IDjc">AI counting to 100, tale #2</a>.</li>
+  </ul>
 </div>
