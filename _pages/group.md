@@ -3,9 +3,9 @@ layout: page
 permalink: /group/
 title: Group
 description: Mentored students and resources for research life.
-nav: false
+nav: true
 nav_order: 3
-published: false
+published: true
 _styles: |
   .post-header,
   article {
