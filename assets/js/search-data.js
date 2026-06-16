@@ -23,6 +23,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
+        },{id: "nav-group",
+          title: "Group",
+          description: "Mentored students and resources for research life.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/group/";
+          },
         },{id: "nav-teaching",
           title: "Teaching",
           description: "Courses, mentoring, and outreach.",
