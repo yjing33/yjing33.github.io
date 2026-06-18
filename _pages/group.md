@@ -150,10 +150,6 @@ _styles: |
 ---
 
 <div class="group-page">
-  <p class="intro">I’m incredibly lucky to work with a wonderful group of students.</p>
-
-  <h2>Students</h2>
-
   <div class="student-roster">
     {% for student in site.data.group.students %}
     <div class="student-entry">
