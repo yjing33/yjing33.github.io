@@ -150,7 +150,7 @@ _styles: |
 ---
 
 <div class="group-page">
-  <p class="intro">I am fortunate to work with students who bring curiosity and care to questions in learning, control, and decision making. I also keep a few advising and research-life resources. Some links are practical, some are opinionated, and some are just good reminders that most research progress begins with formulating the right question.</p>
+  <p class="intro">I’m incredibly lucky to work with a wonderful group of students.</p>
 
   <h2>Students</h2>
 
