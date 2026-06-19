@@ -9,7 +9,7 @@ published: true
 _styles: |
   .post-header,
   article {
-    max-width: 46rem;
+    max-width: 48rem;
   }
 
   .group-page h2 {
@@ -207,9 +207,9 @@ _styles: |
     <li><a href="https://norvig.com/21-days.html">Teach Yourself Programming in Ten Years</a>, by Peter Norvig.</li>
   </ul>
 
-  <h3>Tales of AI counting to 100</h3>
+  <h3>AI for research</h3>
   <ul class="resource-list">
-    <li><a href="https://www.youtube.com/shorts/HfAFHRVtYFE">AI counting to 100, tale #1</a>.</li>
-    <li><a href="https://www.youtube.com/shorts/s_zV0K1IDjc">AI counting to 100, tale #2</a>.</li>
+    <li><a href="https://math.mit.edu/~etingof/aiuse.pdf">Use of AI in mathematical research: A guide for young mathematicians</a>, by Pavel Etingof (MIT Math).</li>
+    <li><a href="https://arxiv.org/pdf/2602.03837">Accelerating Scientific Research with Gemini: Case Studies and Common Techniques</a>, by Woodruff et al.</li>
   </ul>
 </div>
