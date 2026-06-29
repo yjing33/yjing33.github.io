@@ -205,6 +205,7 @@ _styles: |
     <li><a href="https://www.cs.princeton.edu/~jrex/teaching/spring2005/fft/azuma.html">So long, and thanks for the Ph.D.!</a>, by Ronald T. Azuma.</li>
     <li><a href="https://gwern.net/doc/science/1986-hamming">You and Your Research</a>, by Richard Hamming.</li>
     <li><a href="https://norvig.com/21-days.html">Teach Yourself Programming in Ten Years</a>, by Peter Norvig.</li>
+    <li><a href="https://let-all.com/assets/slides/How-to-ALT22-Sam.pdf">How to Read a Paper</a>, by Sam Hopkins.</li>
   </ul>
 
   <h3>AI for research</h3>
