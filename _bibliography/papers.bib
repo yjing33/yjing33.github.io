@@ -6,28 +6,45 @@
 @string{eenergy    = {ACM International Conference on Future and Sustainable Energy Systems (ACM e-Energy)}}
 @string{icml       = {International Conference on Machine Learning (ICML)}}
 @string{l4dc       = {Annual Learning for Dynamics and Control Conference (L4DC)}}
-@string{lcss       = {IEEE Control Systems Letters (L-CSS)}}
+@string{lcss       = {IEEE Control Systems Letters (LCSS)}}
 @string{sigmetrics = {ACM SIGMETRICS}}
+@string{tac        = {IEEE Transactions on Automatic Control (TAC)}}
 @string{tsg        = {IEEE Transactions on Smart Grid}}
+@string{tps        = {IEEE Transactions on Power Systems (TPS)}}
 
 % =====================================================================
-% 2025 / In submission
+% 2026 / 2025 / In submission
 % =====================================================================
 
-@unpublished{wu2025sls,
-  bibtex_show = {true},
-  title       = {{System-Level Performance and Communication Tradeoff in Networked Control with Predictions}},
-  author      = {Wu, Y. and Yu, J. and Li, T.},
-  year        = {2025},
-  note        = {In submission},
-  arxiv       = {2508.13475},
-  code        = {https://github.com/Wu-yi-fei/predictive-sls-master}
+@article{wu2026multisource,
+  title       = {Multi-Source Predictive Distributed Voltage Control},
+  author      = {Wu, Y. and Wu, R. and Yu, J. and Li, T.},
+  journal     = tps,
+  year        = {2026},
+  note        = {Submitted}
 }
 
-@article{zeng2025sysid,
+@article{wu2025sls,
+  title       = {{System-Level Performance and Communication Tradeoff in Networked Control with Predictions}},
+  author      = {Wu, Y. and Yu, J. and Li, T.},
+  journal     = tac,
+  year        = {2026},
+  note        = {Submitted}
+}
+
+@article{yi2026bilinear,
+  bibtex_show = {true},
+  title       = {Achieving {\~{O}}(1/T) Sample Complexity for Bilinear Dynamical Systems Identification under Bounded Noise},
+  author      = {Yi, H. and Lu, C. and Yu, J.},
+  journal     = lcss,
+  year        = {2026},
+  pdf         = {https://arxiv.org/pdf/2603.20819}
+}
+
+@article{xiong2025sysid,
   bibtex_show = {true},
   title       = {System Identification Under Bounded Noise: Optimal Rates Beyond Least Squares},
-  author      = {Zeng, X. and Yu, J. and Ozay, N.},
+  author      = {Xiong, Z. and Yu, J. and Ozay, N.},
   journal     = lcss,
   year        = {2025},
   arxiv       = {2503.16817},
@@ -36,11 +53,11 @@
 
 @inproceedings{wu2025pedsls,
   bibtex_show = {true},
-  title       = {{PEDSLS}: A Unified Framework for Distributed Predictive Control},
+  title       = {{PREDSLS}: A Unified Framework for Distributed Predictive Control},
   author      = {Wu, Y. and Yu, J. and Li, T.},
   booktitle   = cdc,
   year        = {2025},
-  html        = {https://ieeexplore.ieee.org/document/11312851},
+  arxiv       = {2508.13475},
   code        = {https://github.com/Wu-yi-fei/predictive-sls-master}
 }
 
@@ -60,7 +77,7 @@
   author      = {Yu, J. and Zhang, T. and Ardakanian, O. and Wierman, A.},
   booktitle   = eenergy,
   year        = {2025},
-  pdf         = {https://drive.google.com/file/d/18wqqf8kS9mo4bDSLo3r1InEtVw3n-07W/view?usp=sharing},
+  pdf         = {https://dl.acm.org/doi/pdf/10.1145/3679240.3734592},
   code        = {https://github.com/sustainable-computing/ocft},
   selected    = {true}
 }
@@ -87,7 +104,7 @@
   author      = {Yeh, C. and Yu, J. and Shi, Y. and Wierman, A.},
   journal     = tsg,
   year        = {2024},
-  arxiv       = {2304.02878},
+  arxiv       = {2306.16674},
   code        = {https://github.com/chrisyeh96/voltctrl}
 }
 
@@ -111,7 +128,7 @@
   author      = {Yu, J. and Ho, D. and Wierman, A.},
   booktitle   = sigmetrics,
   year        = {2023},
-  arxiv       = {2203.02630},
+  pdf         = {https://dl.acm.org/doi/pdf/10.1145/3579452},
   code        = {https://colab.research.google.com/drive/1l29fy4ClkA1LBzEj0DXbqE5mNg1cz4WQ?usp=sharing},
   selected    = {true}
 }
@@ -126,7 +143,7 @@
   author      = {Yeh, C. and Yu, J. and Shi, Y. and Wierman, A.},
   booktitle   = eenergy,
   year        = {2022},
-  arxiv       = {2206.14369},
+  pdf         = {https://dl.acm.org/doi/pdf/10.1145/3538637.3538853},
   code        = {https://github.com/chrisyeh96/voltctrl},
   award       = {Best Paper Award Finalist},
   annotation  = {Best Paper Award Finalist},
@@ -191,7 +208,8 @@
   title       = {Direct Digital Subtractive Manufacturing of a Functional Assembly using Voxel-based Models},
   author      = {Lynn, R. and Dinar, M. and Huang, N. and Collins, J. and Yu, J. and Greer, C. and Tucker, T. and Kurfess, T.},
   journal     = {ASME Journal of Manufacturing Science and Engineering},
-  year        = {2018}
+  year        = {2018},
+  pdf         = {https://asmedigitalcollection.asme.org/micronanomanufacturing/article-pdf/140/2/021006/6375783/manu_140_02_021006.pdf}
 }
 
 @article{yu2017modelfree,
@@ -199,7 +217,8 @@
   title       = {Model-free Subtractive Manufacturing from Computed Tomography Data},
   author      = {Yu, J. and Lynn, R. and Tucker, T. and Saldana, C. and Kurfess, T.},
   journal     = {ASME Manufacturing Letters},
-  year        = {2017}
+  year        = {2017},
+  html        = {https://www.sciencedirect.com/science/article/abs/pii/S2213846317300160}
 }
 
 @misc{yu2021patentdownbeam,

@@ -61,7 +61,7 @@
       {% assign author_array_size = entry.author_array | size %}
 
       {% assign author_array_limit = author_array_size %}
-      {% unless entry.selected %}
+      {% unless entry.selected or page.permalink == '/publications/' %}
         {% if site.max_author_limit and author_array_size > site.max_author_limit %}
           {% assign author_array_limit = site.max_author_limit %}
         {% endif %}

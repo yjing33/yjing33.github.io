@@ -14,6 +14,6 @@ Classical analyses often adopt Gaussian noise assumptions for tractability, lead
 
 We then prove that $$\tilde{\mathcal{O}}(1/T)$$ is the **minimax-optimal** rate under bounded disturbances, while least squares remains fundamentally limited to the slower $$\tilde{\mathcal{O}}(1/\sqrt{T})$$ rate. Together, these results give a finite-time foundation for online and adaptive system identification beyond classical least-squares-based approaches.
 
-**Selected outcomes.** Non-asymptotic analysis of set-membership uncertainty learning {% cite li2024uncertainty %}; and a matching minimax lower bound {% cite zeng2025sysid %}.
+**Selected outcomes.** Non-asymptotic analysis of set-membership uncertainty learning {% cite li2024uncertainty %}; and a matching minimax lower bound {% cite xiong2025sysid %}.
 
 **Timeline.** 2024 – present.
