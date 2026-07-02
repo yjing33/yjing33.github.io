@@ -13,9 +13,15 @@ profile:
     <p>University of Washington</p>
     <p>Seattle, WA</p>
     <p>jing5 [at] uw [dot] edu</p>
+    <div class="profile-contact-icons">
+      <a href="mailto:jing5@uw.edu" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+      <a href="https://github.com/jy-cds" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+      <a href="https://scholar.google.com/citations?user=akiDVE8AAAAJ" aria-label="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+      <a href="/assets/pdf/jing-yu-resume.pdf" aria-label="Resume"><i class="ai ai-cv"></i></a>
+    </div>
 
 selected_papers: true
-social: true
+social: false
 
 announcements:
   enabled: true

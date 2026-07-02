@@ -69,6 +69,46 @@ ul.task-list input[type="checkbox"] {
       display: block;
       margin: 0 0 0.15rem;
     }
+
+    .profile-contact-icons {
+      align-items: center;
+      display: flex;
+      gap: 0.68rem;
+      margin-top: 1.15rem;
+
+      a {
+        align-items: center;
+        color: var(--global-text-color);
+        display: inline-flex;
+        height: 1.45rem;
+        justify-content: center;
+        line-height: 1;
+        width: 1.45rem;
+
+        i {
+          line-height: 1;
+          text-align: center;
+        }
+
+        .fa-envelope {
+          font-size: 1.16rem;
+        }
+
+        .fa-github {
+          font-size: 1.32rem;
+        }
+
+        .ai-google-scholar,
+        .ai-cv {
+          font-size: 1.28rem;
+        }
+
+        &:hover {
+          color: var(--global-theme-color);
+          text-decoration: none;
+        }
+      }
+    }
   }
 }
 
