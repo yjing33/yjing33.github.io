@@ -2,7 +2,7 @@
 layout: page
 permalink: /group/
 title: Group
-description: Mentored students and resources for research life.
+description:
 nav: true
 nav_order: 3
 published: true
@@ -12,7 +12,19 @@ _styles: |
     max-width: 48rem;
   }
 
+  .post-header .post-description {
+    display: none;
+  }
+
   .group-page h2 {
+    margin: 3.75rem 0 1.2rem;
+  }
+
+  .group-page .section-title {
+    color: var(--global-text-color);
+    font-size: 2.5rem;
+    font-weight: 400;
+    line-height: 1.2;
     margin: 3.75rem 0 1.2rem;
   }
 
@@ -174,7 +186,7 @@ _styles: |
     {% endfor %}
   </div>
 
-  <h2>Resources and Advice</h2>
+  <h2 class="section-title">Resources</h2>
 
   <blockquote class="group-quote">
     <p>&ldquo;If I had an hour to solve a problem I'd spend 55 minutes thinking about the problem and 5 minutes thinking about solutions.&rdquo;</p>
@@ -210,7 +222,7 @@ _styles: |
 
   <h3>AI for research</h3>
   <ul class="resource-list">
-    <li><a href="https://math.mit.edu/~etingof/aiuse.pdf">Use of AI in mathematical research: A guide for young mathematicians</a>, by Pavel Etingof (MIT Math).</li>
+    <li><a href="https://math.mit.edu/~etingof/aiuse.pdf">Use of AI in mathematical research: A guide for young mathematicians</a>, by Pavel Etingof.</li>
     <li><a href="https://arxiv.org/pdf/2602.03837">Accelerating Scientific Research with Gemini: Case Studies and Common Techniques</a>, by Woodruff et al.</li>
   </ul>
 </div>
