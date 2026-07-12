@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-group",
           title: "Group",
-          description: "Mentored students and resources for research life.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/group/";
