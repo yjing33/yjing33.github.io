@@ -91,7 +91,7 @@ ninja.data = [{
           section: "News",},{id: "news-congratulations-to-hongyu-on-receiving-the-clean-energy-institute-graduate-fellowship-awarded-to-exceptional-graduate-researchers-across-uw-working-on-sustainability",
           title: 'Congratulations to Hongyu on receiving the Clean Energy Institute Graduate Fellowship, awarded to...',
           description: "",
-          section: "News",},{id: "news-i-will-give-invited-talks-in-the-ieee-power-amp-amp-energy-society-pes-big-data-tutorial-series-and-at-the-2026-ifac-world-congress-workshop-on-contextual-control-and-learning",
+          section: "News",},{id: "news-i-will-give-invited-talks-in-the-ieee-power-amp-amp-energy-society-pes-big-data-tutorial-series-and-at-the-2026-ifac-world-congress-workshop-on-contextual-learning-and-control",
           title: 'I will give invited talks in the IEEE Power &amp;amp;amp; Energy Society (PES)...',
           description: "",
           section: "News",},{id: "news-our-cdc-2026-workshop-control-under-unreliable-predictions-previews-and-contextual-information-and-tutorial-session-learning-adapting-and-certifying-control-policies-in-system-level-coordinates-were-accepted-the-tutorial-paper-and-workshop-website-will-be-updated-soon-see-you-in-honolulu",
