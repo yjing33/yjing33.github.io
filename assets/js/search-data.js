@@ -94,7 +94,7 @@ ninja.data = [{
           section: "News",},{id: "news-i-will-give-invited-talks-in-the-ieee-power-amp-amp-energy-society-pes-big-data-tutorial-series-and-at-the-2026-ifac-world-congress-workshop-on-contextual-control-and-learning",
           title: 'I will give invited talks in the IEEE Power &amp;amp;amp; Energy Society (PES)...',
           description: "",
-          section: "News",},{id: "news-our-workshop-and-tutorial-session-on-system-level-perspectives-for-control-learning-and-adaptation-in-dynamical-systems-were-accepted-for-cdc-2026-tutorial-papers-and-the-workshop-website-will-be-available-soon-see-you-in-honolulu",
+          section: "News",},{id: "news-our-workshop-and-tutorial-session-on-system-level-perspectives-for-control-learning-and-adaptation-in-dynamical-systems-were-accepted-for-cdc-2026-the-tutorial-paper-and-workshop-website-will-be-available-soon-see-you-in-honolulu",
           title: 'Our workshop and tutorial session on system-level perspectives for control, learning, and adaptation...',
           description: "",
           section: "News",},{id: "projects-adversarial-stabilization",
