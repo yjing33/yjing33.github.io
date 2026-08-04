@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our workshop and tutorial session on system-level perspectives for control, learning, and adaptation in dynamical systems were accepted for CDC 2026. The tutorial paper and workshop website will be available soon. See you in Honolulu!
+Our [CDC 2026 workshop: *Control under Unreliable Predictions, Previews, and Contextual Information*](https://cdc2026.ieeecss.org/program/workshops-listing#session-2-15) and tutorial session: *Learning, Adapting, and Certifying Control Policies in System-Level Coordinates* were accepted. The tutorial paper and workshop website will be updated soon. See you in Honolulu!
