@@ -40,12 +40,12 @@ upstream guidance whenever the two conflict.
 Navigation pages live in `_pages/` and are shown in the navbar when their
 front matter has `nav: true`. The active navigation, in order, is:
 
-| Page | Source | Purpose |
-| ---- | ------ | ------- |
-| `about` (home) | `_pages/about.md` | Bio, contact, news, selected papers |
-| `publications` | `_pages/publications.md` + `_bibliography/papers.bib` | Full publication list |
-| `projects` | `_pages/projects.md` + `_projects/*.md` | Research themes and project descriptions |
-| `teaching` | `_pages/teaching.md` | Courses + outreach |
+| Page           | Source                                                | Purpose                                  |
+| -------------- | ----------------------------------------------------- | ---------------------------------------- |
+| `about` (home) | `_pages/about.md`                                     | Bio, contact, news, selected papers      |
+| `publications` | `_pages/publications.md` + `_bibliography/papers.bib` | Full publication list                    |
+| `projects`     | `_pages/projects.md` + `_projects/*.md`               | Research themes and project descriptions |
+| `teaching`     | `_pages/teaching.md`                                  | Courses + outreach                       |
 
 Other al-folio pages (`advising`, `blog`, `repositories`, `books`, `cv`,
 `news`) are kept on disk so the template is intact, but `nav: false` or

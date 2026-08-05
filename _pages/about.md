@@ -35,15 +35,11 @@ latest_posts:
 
 I am an Assistant Professor in the [Department of Electrical and Computer Engineering](https://www.ece.uw.edu/) at the University of Washington. Before joining UW, I held postdoctoral research positions at the University of Illinois Urbana-Champaign and the University of Michigan. I received my Ph.D. in Control and Dynamical Systems from Caltech in 2024. My work has received the Caltech CMS Amori Doctoral Prize, an Amazon AI4Science Fellowship, finalist recognition for the ACM e-Energy Best Paper Award, and an honorable mention for the ACM SIGEnergy Doctoral Dissertation Award.
 
-
-
 <!--
  My broader goal is to develop system-level approaches that enable principled architecture design and generalize across applications, with a focus on sustainable energy systems. -->
 
 **Research Themes.** My group develops foundations for online and adaptive learning and control for engineering systems in safety-critical, large-scale, and dynamically changing settings. We study how physical constraints inherent to real systems, including stability, robustness, safety, and communication limitations, shape algorithm design. We also work on system-level optimization for networked control architectures, where communication patterns, contextual information, and controller structure are designed together rather than imposed after the fact. These ideas are motivated by, and tested in, applications such as power grids, building HVAC systems, particle accelerators, and other large-scale cyber-physical systems.
 
 <!-- Recent work includes online stabilization of unknown time-varying and networked systems without an a priori stabilizing controller, finite-time online system identification under bounded noise with optimal rates beyond least squares, adaptive prediction-augmented distributed control under unreliable forecasts, and uncertainty-aware online control for sustainable energy systems.  -->
-
-
 
 **Prospective Students.** If you are interested in joining our group, please apply to the [UW ECE graduate program](https://www.ece.uw.edu/academics/graduate/) and mention my name in your application. Current UW students interested in control, learning, and sustainable energy systems are welcome to reach out by email.
