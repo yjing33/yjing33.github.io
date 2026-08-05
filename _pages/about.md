@@ -33,7 +33,7 @@ latest_posts:
   limit: 3
 ---
 
-I am an Assistant Professor in the [Department of Electrical and Computer Engineering](https://www.ece.uw.edu/) at the University of Washington. Before joining UW, I was a postdoctoral researcher at the University of Illinois Urbana-Champaign with [R. Srikant](https://sites.google.com/illinois.edu/srikant/) and at the University of Michigan with [Necmiye Ozay](https://web.eecs.umich.edu/~necmiye/). I received my Ph.D. in Control and Dynamical Systems from Caltech in 2024, where I was advised by [John Doyle](https://www.cds.caltech.edu/~doyle/) and [Adam Wierman](https://adamwierman.com/). My research has been recognized by the Caltech CMS Amori Doctoral Prize, an Amazon AI4Science Fellowship, an ACM e-Energy Best Paper Award Finalist recognition, and an ACM SIGEnergy Doctoral Dissertation Award Honorable Mention.
+I am an Assistant Professor in the [Department of Electrical and Computer Engineering](https://www.ece.uw.edu/) at the University of Washington. Before joining UW, I held postdoctoral research positions at the University of Illinois Urbana-Champaign and the University of Michigan. I received my Ph.D. in Control and Dynamical Systems from Caltech in 2024. My work has received the Caltech CMS Amori Doctoral Prize, an Amazon AI4Science Fellowship, finalist recognition for the ACM e-Energy Best Paper Award, and an honorable mention for the ACM SIGEnergy Doctoral Dissertation Award.
 
 
 
